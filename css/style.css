@@ -1,0 +1,96 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #f4f4f8;
+  color: #1a1a1a;
+}
+/* Скрытый SEO-блок */
+.visually-hidden {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+header {
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 2em;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #003366;
+}
+.logo span {
+  color: #00aaff;
+}
+nav a {
+  margin-left: 2em;
+  text-decoration: none;
+  font-weight: 500;
+  color: #333;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #00aaff;
+}
+.hero {
+  background: url('../images/pool-bg.jpg') no-repeat center center/cover;
+  text-align: center;
+  padding: 6em 2em;
+  color: white;
+}
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+.hero p {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2em;
+  padding: 3em 2em;
+}
+.product {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+  padding: 1em;
+}
+.product:hover {
+  transform: translateY(-5px);
+}
+.product img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1em;
+}
+button {
+  background: #00aaff;
+  color: white;
+  border: none;
+  padding: 0.8em 1.5em;
+  border-radius: 30px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+button:hover {
+  background: #0077cc;
+}
+footer {
+  text-align: center;
+  padding: 2em;
+  background: #ffffff;
+  border-top: 1px solid #ddd;
+}

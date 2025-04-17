@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "title": "Каркасный бассейн Intex Ultra XTR 549x132",
+    "price": 69990,
+    "image": "images/intex-ultra.jpg",
+    "description": "Большой, прочный и стильный бассейн премиум-класса."
+  },
+  {
+    "id": "2",
+    "title": "Надувной бассейн Bestway Paradise 457x122",
+    "price": 39990,
+    "image": "images/bestway-paradise.jpg",
+    "description": "Комфорт и красота в каждой детали — лучший выбор для семьи."
+  }
+]

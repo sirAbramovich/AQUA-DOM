@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Премиальные бассейны | AQUA|DOM</title>
+  <meta name="description" content="Премиальные бассейны с доставкой по Омску и России. AQUA|DOM — элитный интернет-магазин каркасных и надувных бассейнов.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">AQUA<span>|</span>DOM</div>
+    <nav>
+      <a href="#">Каталог</a>
+      <a href="#">О нас</a>
+      <a href="#">Контакты</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Премиальные бассейны</h1>
+    <p>Лето начинается с AQUA|DOM</p>
+  </section>
+
+  <main class="product-list" id="products">
+    <!-- Продукты загружаются через JS -->
+  </main>
+
+  <!-- Скрытый SEO-блок -->
+  <div class="visually-hidden">
+    Купить бассейн в Омске с доставкой по области
+    Интернет-магазин AQUA|DOM предлагает купить бассейн для дома, дачи или бизнеса с доставкой по Омску и Омской области. Установка, сервис, гарантия.
+  </div>
+
+  <footer>
+    <p>© AQUA|DOM, 2025 | info@aquadom.ru | +7 (3812) 123-456</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <!-- Плагины -->
+  <script src="plugins/tbank-plugin.js"></script>
+  <script src="plugins/moysklad-plugin.js"></script>
+  <script>
+    // Загрузка и инициализация подключённых плагинов
+    if (window.PluginManager) {
+      PluginManager.loadPlugins(['tbank', 'moysklad']);
+    }
+  </script>
+</body>
+</html>
